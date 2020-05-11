@@ -36,7 +36,13 @@ Simple Bottom Navigation Bar for Android.
 
 ## Gradle
 ```Groovy
-compile 'com.eightbitlab:bottomnavigationbar:0.9.6'
+repositories {
+    jcenter()
+    maven { url "https://jitpack.io" }
+}
+dependencies {
+  implementation 'com.github.philippd1:BottomNavigationBar:1.0.0'
+}
 ```
 
 ## Why is it better than library X?
